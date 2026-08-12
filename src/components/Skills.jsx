@@ -93,7 +93,7 @@ const Skills = () => {
       id='skills'
       className='relative overflow-hidden bg-[#05050c] bg-cover bg-center bg-no-repeat py-28 lg:py-36'
       style={{
-        backgroundImage: "url('../../public/space.jpg')",
+        backgroundImage: "url('/space.jpg')",
       }}
     >
       <div

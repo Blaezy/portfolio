@@ -1,16 +1,54 @@
-# React + Vite
+# Ankit Kumar Singh — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio site for **Ankit Kumar Singh**, a frontend developer learning full-stack development. Built with React and Vite, styled with Tailwind CSS, and animated end-to-end with GSAP (scroll-triggered reveals, marquee loops, orbiting stack card, and more).
 
-Currently, two official plugins are available:
+🔗 **Live site:** [portfolio-blaezy.vercel.app](https://portfolio-blaezy.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Hero** — intro, name, tagline, and quick links to work/contact
+- **About** — bio, stats, and an interactive orbiting "stack" card that tilts on mouse move
+- **Skills** — an infinite dual-row marquee of tools, pausable on hover
+- **Projects** — featured builds: **PlayStack** (game tracker), **Sky-Mart** (e-commerce), **Basecamp** (productivity app)
+- **Contact** — ways to get in touch
+- **Navbar** — scroll-spy active states, glass blur on scroll, animated mobile menu
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React 19** + **Vite** — UI and dev/build tooling
+- **Tailwind CSS 4**
+- **GSAP** + `@gsap/react` (`useGSAP`) — timelines, `ScrollTrigger` reveals, infinite marquee, orbit rotation, cursor-tilt effects
+- **lucide-react** / **react-icons** — icons
+- Deployed on **Vercel**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GSAP Highlights
+
+- `useGSAP` hook scoped to each section for automatic cleanup
+- Staggered entrance timelines (Hero, About, Navbar)
+- `ScrollTrigger`-driven reveals with `play reverse play reverse` toggle actions (About, Skills, Projects)
+- Infinite marquee loops built with `xPercent` tweens (Skills)
+- Continuous rotation + counter-rotating icons for the orbiting stack card (About)
+- Mouse-tracked tilt effect on the About card
+
+## Getting Started
+
+```bash
+git clone https://github.com/Blaezy/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+Other scripts:
+
+```bash
+npm run build      # production build
+npm run preview    # preview the build
+npm run lint        # run ESLint
+```
+
+## Connect
+
+- GitHub: [@Blaezy](https://github.com/Blaezy)
+- LinkedIn: [ankitkumarsingh-blaezy](https://www.linkedin.com/in/ankitkumarsingh-blaezy)
+- Email: ankitkumarsingh22dev@gmail.com
