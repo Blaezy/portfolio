@@ -49,7 +49,7 @@ const Contact = () => {
       id='contact'
       className='relative overflow-hidden bg-[#03030a] bg-cover bg-center bg-no-repeat px-6 pb-10 pt-28 lg:px-10 lg:pt-36'
       style={{
-        backgroundImage: "url('../../public/space.jpg')",
+        backgroundImage: "url('/space.jpg')",
       }}
     >
       <div

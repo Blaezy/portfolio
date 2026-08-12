@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
-const SECTION_BACKGROUND = "../../public/space.jpg";
+const SECTION_BACKGROUND = "/space.jpg";
 
 const tagColors = {
   React: "bg-sky-400",
@@ -28,7 +28,7 @@ const projects = [
     category: "Game Tracker & Library",
     description: "Track your games, rate them, write reviews and organize your entire game library in one place.",
     tags: ["React", "Redux Toolkit", "API", "JavaScript"],
-    image: "../../public/projects/playstack.png",
+    image: "/projects/playstack.png",
     live: "https://sheryians-mini-hackathon-playstack.vercel.app/",
     github: "https://github.com/Blaezy/sheryians-mini-hackathon-playstack",
   },
@@ -39,7 +39,7 @@ const projects = [
     description:
       "A modern e-commerce platform with product browsing, category filtering, cart management and secure checkout.",
     tags: ["React", "Tailwind CSS", "Api", "JavaScript"],
-    image: "../../public/projects/sky-mart.png",
+    image: "/projects/sky-mart.png",
     live: "https://sheryians-sky-mart.vercel.app/",
     github: "https://github.com/Blaezy/sheryians-sky-mart",
   },
@@ -49,7 +49,7 @@ const projects = [
     category: "Productivity Web Application",
     description: "An all-in-one productivity app to manage tasks, track goals, plan your day and stay consistent.",
     tags: ["React", "JavaScript", "LocalStorage", "CSS"],
-    image: "../../public/projects/basecamp.png",
+    image: "/projects/basecamp.png",
     live: "https://sheryians-productivity-dashboard.vercel.app/",
     github: "https://github.com/Blaezy/sheryians-productivity-dashboard",
   },

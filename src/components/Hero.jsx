@@ -112,7 +112,7 @@ const Hero = () => {
       id='home'
       className='relative min-h-[calc(100vh-5rem)] overflow-hidden bg-[#020208] bg-cover bg-center bg-no-repeat'
       style={{
-        backgroundImage: "url('../../public/space.jpg')",
+        backgroundImage: "url('/space.jpg')",
       }}
     >
       <div

@@ -149,7 +149,7 @@ const About = () => {
       id='about'
       className='relative overflow-hidden bg-[#03030a] bg-cover bg-center bg-no-repeat px-6 py-28 lg:px-10 lg:py-36'
       style={{
-        backgroundImage: "url('../../public/space.jpg')",
+        backgroundImage: "url/space.jpg')",
       }}
     >
       <div className='absolute inset-0 bg-gradient-to-r from-[#03030a]/95 via-[#03030a]/90 to-[#03030a]/75' />
